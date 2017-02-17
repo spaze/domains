@@ -1,2 +1,2 @@
-# domains
-Unofficial and incomplete list of domain names
+# Domains
+Unofficial and incomplete lists of various domain names, for research purposes only.
