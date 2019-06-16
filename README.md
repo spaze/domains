@@ -23,8 +23,8 @@ Thanks!
 Have a list of domains you'd like to add? Feel free to create a pull request!
 
 Here's a short how-to:
-1. Only 2nd-level domains *foo.tld*, no *bar.foo.tld* (lines should match `^[a-z0-9-]+\.tld$`)
-2. Use LF newlines, not CRLF
+1. Only 2nd-level domains *foo.tld*, no *bar.foo.tld* (lines should match `^[a-z0-9-]+\.tld$`, so for example `grep --only-matching --perl-regexp "[a-z0-9-]+\.cz" data.txt > yourlist.txt`)
+2. Use LF newlines, not CRLF (`dos2unix yourlist.txt`)
 3. Generate a new list, for example with `cat tld-cz.txt yourlist.txt | sort | uniq > tld-cz-new.txt`
 4. Review `tld-cz-new.txt`, rename to `tld-cz.txt`, pull request it
 
