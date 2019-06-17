@@ -16,6 +16,7 @@ The CZ list is an append-only list because there's no easy way to filter out exp
 - [Certificate Transparency](https://www.certificate-transparency.org/) logs
 - [A list](http://www.vitezslav-lindovsky.cz/czech_domains.txt) by [Vítězslav Lindovský](https://github.com/vitezslav-lindovsky), and another one of [domains with pages that contain a substring, "drupal"](http://www.vitezslav-lindovsky.cz/czech_domains_on_drupal.txt)
 - A private collection by [Vladimír Smitka](https://github.com/lynt-smitka)
+- Another private collection by [Kamil Vavra](https://github.com/vavkamil)
 
 Thanks!
 
