@@ -21,7 +21,8 @@ The CZ list is an append-only list because there's no easy way to filter out exp
 Thanks!
 
 # whois-cz.csv
-Registrant ID and date of expiration from the Whois for tld-cz.txt. Contains also some historical data.
+Registrant ID and date of expiration from the Whois for tld-cz.txt. Contains also some historical data.  
+If a domain from tld-cz.txt is not in whois-cz.txt with expire_at > current_date it should be considered as not existing.
 
 ## Want to contribute?
 Have a list of domains you'd like to add? Feel free to create a pull request!
