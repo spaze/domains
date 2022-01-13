@@ -17,6 +17,7 @@ The CZ list is an append-only list because there's no easy way to filter out exp
 - A list by [Vítězslav Lindovský](https://vitezslav-lindovsky.cz/)
 - A private collection by [Vladimír Smitka](https://github.com/lynt-smitka)
 - Another private collection by [Kamil Vavra](https://github.com/vavkamil)
+- A list by [domainsproject.org](https://github.com/tb0hdan/domains/tree/master/data/czech_republic)
 
 Thanks!
 
