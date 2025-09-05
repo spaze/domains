@@ -1,0 +1,16 @@
+name: Find invalid domains
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  invalid:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Find invalid domains
+        run: grep --invert-match 'xn--hkyrky-ptac70bc.cz' tld-cz.txt | (! grep --perl-regexp '^-|-$|--+')
+      - name: Find long domains
+        run: grep '^.\{67\}' tld-cz.txt
