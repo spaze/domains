@@ -9,7 +9,7 @@ jobs:
   invalid:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - name: Find syntactically invalid domains
         run: grep --invert-match 'xn--hkyrky-ptac70bc.cz' tld-cz.txt | (! grep --perl-regexp '^-|-$|--+')
       - name: Find long domains
